@@ -102,15 +102,15 @@ http://localhost:3000
 
 ### Usuários
 
-POST /api/users: Cria um novo usuário.
-GET /api/users: Lista todos os usuários.
-GET /api/users/:id: Retorna os dados de um usuário específico.
-PUT /api/users/:id: Atualiza um usuário.
-DELETE /api/users/:id: Remove um usuário.
+- POST /api/users: Cria um novo usuário.
+- GET /api/users: Lista todos os usuários.
+- GET /api/users/:id: Retorna os dados de um usuário específico.
+- PUT /api/users/:id: Atualiza um usuário.
+- DELETE /api/users/:id: Remove um usuário.
 
 ### Agendamentos
 
-POST /api/appointments: Cria um novo agendamento.
-GET /api/appointments: Lista todos os agendamentos.
-DELETE /api/appointments/:id: Remove um agendamento.
+- POST /api/appointments: Cria um novo agendamento.
+- GET /api/appointments: Lista todos os agendamentos.
+- DELETE /api/appointments/:id: Remove um agendamento.
 
