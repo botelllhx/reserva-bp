@@ -75,6 +75,42 @@ Inicie o servidor::
 node dist/server.js
 ```
 
+### Configurar o Frontend:
 
+Acesse a pasta do frontend:
+```bash
+cd ../reserva-bp-frontend
+```
 
+Instale as dependências:
+```bash
+npm install
+```
+
+Inicie o servidor de desenvolvimento:
+```bash
+npm start
+```
+Acesse o frontend em:
+```bash
+http://localhost:3000
+```
+
+---
+
+### 📅 Endpoints do Backend
+
+### Usuários
+
+POST /api/users: Cria um novo usuário.
+GET /api/users: Lista todos os usuários.
+GET /api/users/:id: Retorna os dados de um usuário específico.
+PUT /api/users/:id: Atualiza um usuário.
+DELETE /api/users/:id: Remove um usuário.
+
+### Agendamentos
+
+POST /api/appointments: Cria um novo agendamento.
+GET /api/appointments: Lista todos os agendamentos.
+DELETE /api/appointments/:id: Remove um agendamento.
 
