@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from '../services/api';
 import { useNavigate } from 'react-router-dom';
-import '../styles/Login.css'; // Reutilizamos o CSS de Login
+import '../styles/Login.css'; // Reutilizando o CSS de Login
 
 const Register: React.FC = () => {
     const [nome, setNome] = useState('');
