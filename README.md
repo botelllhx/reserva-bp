@@ -48,3 +48,33 @@ Este é um sistema **Fullstack** de agendamentos que permite que clientes marque
 ```bash
 git clone https://github.com/seu-usuario/reserva-bp.git
 cd reserva-bp
+cd reserva-bp-backend
+```
+### Configurar o Backend:
+
+Acesse a pasta do backend:
+
+```bash
+cd reserva-bp-backend
+```
+
+Instale as dependências:
+
+```bash
+npm install
+```
+
+Configure o arquivo .env na raiz do backend:
+```bash
+PORT=5000
+MONGO_URI=sua-string-de-conexao-mongodb
+```
+
+Inicie o servidor::
+```bash
+node dist/server.js
+```
+
+
+
+
