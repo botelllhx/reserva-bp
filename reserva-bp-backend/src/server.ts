@@ -10,9 +10,8 @@ connectDB();
 
 const app = fastify({ logger: true });
 
-// Registrar o novo plugin CORS
 app.register(cors, {
-    origin: true, // Permitir todas as origens. Ajuste conforme necessário.
+    origin: true, // Permitir todas as origens.
 });
 
 app.register(userRoutes, { prefix: '/api/users' });
