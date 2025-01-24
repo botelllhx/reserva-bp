@@ -1,9 +1,8 @@
 /* Estilos globais */
-/* Estilo global */
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Nunito', sans-serif; /* Ou 'Nunito', dependendo da escolha */
+    font-family: 'Nunito', sans-serif; 
     background-color: #f9f9f9;
     color: #333;
     line-height: 1.6;
