@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                           // Versão do JavaScript para o código gerado
+    "module": "ESNext",                        // Suporte a módulos ESNext
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],  // Bibliotecas necessárias para o ambiente React
+    "allowJs": true,                           // Permitir arquivos JavaScript
+    "skipLibCheck": true,                      // Ignorar verificação de arquivos de definição
+    "esModuleInterop": true,                   // Compatibilidade com importações CommonJS
+    "allowSyntheticDefaultImports": true,      // Permitir imports padrão
+    "strict": true,                            // Ativar verificações rigorosas
+    "forceConsistentCasingInFileNames": true,  // Case-sensitive nos nomes de arquivos
+    "moduleResolution": "Node",               // Resolver módulos como o Node.js
+    "resolveJsonModule": true,                 // Permitir importar arquivos JSON
+    "isolatedModules": true,                   // Exigir transpilação por módulo
+    "noEmit": true,                            // Não gerar arquivos (React cuida disso)
+    "jsx": "react-jsx"                         // Suporte ao JSX moderno do React
+  },
+  "include": ["src"],                          // Incluir apenas a pasta src
+  "exclude": ["node_modules", "dist"]          // Excluir node_modules e a pasta dist
+}
